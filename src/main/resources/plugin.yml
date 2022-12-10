@@ -1,0 +1,6 @@
+name: VortexLogger
+version: '${project.version}'
+main: gemesil.vortexlogger.VortexLogger
+api-version: 1.19
+authors: [ Gemesil ]
+description: Adds various logging methods such as sending alert, chat and actionbar messages
