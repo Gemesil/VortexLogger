@@ -1,5 +1,5 @@
 # VortexLogger
-A simple minecraft plugin written by Ofek Buchnik that adds a bunch of useful logging methods and handles plugin-toplayer hotbar / chat text.
+A minecraft plugin written by Ofek Buchnik that adds a bunch of useful logging methods and handles plugin-toplayer hotbar / chat text.
 
 ## Methods
 - sendChat(Player p, String message, boolean withPrefix)
