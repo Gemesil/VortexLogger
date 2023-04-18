@@ -1,3 +1,5 @@
+[![Publish VortexLogger](https://github.com/Gemesil/VortexLogger/actions/workflows/maven-publish.yml/badge.svg)](https://github.com/Gemesil/VortexLogger/actions/workflows/maven-publish.yml)
+
 # VortexLogger
 A minecraft plugin written by Ofek Buchnik that adds a bunch of useful logging methods and handles plugin-toplayer hotbar / chat text.
 
