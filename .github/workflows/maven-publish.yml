@@ -23,6 +23,11 @@ jobs:
           distribution: 'temurin'
           server-id: github
           settings-path: ${{ github.workspace }}
-
+          
       - name: Build with Maven
-        run: mvn -B package --file pom
+        run: mvn -B package --file pom.xml
+
+      - name: Publish to GitHub Packages
+        run: mvn deploy -s ${{ github.workspace }}/settings.xml
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
